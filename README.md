@@ -14,10 +14,10 @@
 
 ## Hardware Description
   &nbsp;&nbsp;&nbsp;Our hardware setup includes:
-  - Microcontroller (ESP-32): acts as the central processing unit, interfacing with the GPS module, temperature and humidity sensor, and the OLED display.
-  - GPS module (NEO-6M-0-001): receives signals from GPS satellites to compute geographical location, it provides the longitude, latitude and altitude.
-  - I2C temperature/humidity sensor (DHT12): measures ambient temperature and humidity and transmits the data digitally via the I2C bus.
-  - OLED display (SH1106 I2C): displays the GPS data and the environmental data.
+  - **Microcontroller** (ESP-32): acts as the central processing unit, interfacing with the GPS module, temperature and humidity sensor, and the OLED display.
+  - **GPS module** (NEO-6M-0-001): receives signals from GPS satellites to compute geographical location, it provides the longitude, latitude and altitude.
+  - **I2C temperature/humidity sensor** (DHT12): measures ambient temperature and humidity and transmits the data digitally via the I2C bus.
+  - **OLED display** (SH1106 I2C): displays the GPS data and the environmental data.
 
 ## Software Description
 The software consists of several classes.
