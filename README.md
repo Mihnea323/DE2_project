@@ -10,7 +10,7 @@
   &nbsp;&nbsp;&nbsp;Our project consists of a GPS tracker that integrates an ESP-WROOM-32 board with a GPS module, I2C temperature and humidity sensor, and an OLED display to monitor location and environmental data in real time. The GPS module provides latitude, longitude, and altitude via UART, while the sensor measures temperature and humidity over I2C. The ESP32 processes this data and displays it on the OLED screen.
 
 ## Circuit Diagram
-![Screenshot 2024-11-28 172033](https://github.com/user-attachments/assets/3d2d2de1-7df5-42a2-8d5e-f2d9d0be83f9)
+![Circuit Diagram](https://github.com/Mihnea323/DE2_project/blob/main/images/diagram.png)
 
 ## Hardware Description
   &nbsp;&nbsp;&nbsp;Our hardware setup includes:
