@@ -14,13 +14,18 @@
 
 ## Hardware Description
   &nbsp;&nbsp;&nbsp;Our hardware setup includes:
-  - **Microcontroller** (ESP-32): acts as the central processing unit, interfacing with the GPS module, temperature and humidity sensor, and the OLED display. <br> <br>
-    ![esp32](https://github.com/Mihnea323/DE2_project/blob/main/images/esp32.jpg)
-  - **GPS module** (NEO-6M-0-001): receives signals from GPS satellites to compute geographical location, it provides the longitude, latitude and altitude. <br> <br>
+  - **Microcontroller** (ESP-32): acts as the central processing unit, interfacing with the GPS module, temperature and humidity sensor, and the OLED display. <br>
+    FireBeetle Board- ESP32 integrates a Dual-Core ESP-WROOM-32 module, which supports MCU and Wi-Fi & Bluetooth dual-mode communication. <br>
+    The ESP32 microcontroller board has a number of GPIO (General Purpose Input/Output) pins that can be used for various purposes, such as digital input and output, analog input, communication interfaces (e.g., UART, SPI, I2C), PWM (Pulse Width Modulation) output, and more. <br> <br>
+    ![esp32](https://github.com/Mihnea323/DE2_project/blob/main/images/DFR0478_pinout3.png)
+  - **GPS module** (NEO-6M-0-001): receives signals from GPS satellites to compute geographical location, it provides the longitude, latitude and altitude. <br>
+    The **NEO-6M-0-001** is a GPS module commonly used in embedded systems for accurate positioning and navigation. It features the NEO-6M chipset, offering high sensitivity and quick acquisition times. It supports GPS and is capable of providing real-time location data with a high level of precision. The module communicates via UART and can be easily integrated with microcontrollers like ESP32. It operates with a voltage range of 3.3V to 5V and is widely used in applications such as robotics, drones, and vehicle tracking systems. <br> <br>
     ![gps](https://github.com/Mihnea323/DE2_project/blob/main/images/gps.jpg)
-  - **I2C temperature/humidity sensor** (DHT12): measures ambient temperature and humidity and transmits the data digitally via the I2C bus. <br> <br>
+  - **I2C temperature/humidity sensor** (DHT12): measures ambient temperature and humidity and transmits the data digitally via the I2C bus. <br>
+    The **DHT12** is a digital temperature and humidity sensor that communicates via the I2C protocol. It provides accurate measurements of temperature (with a range of -20°C to 60°C) and humidity (0% to 100% RH) with a high degree of reliability. The sensor operates at a voltage of 3.3V to 5V and outputs data in a 2-wire I2C format, making it easy to interface with microcontrollers like ESP32.<br> <br>
     ![sensor](https://github.com/Mihnea323/DE2_project/blob/main/images/sensor.jpg)
-  - **OLED display** (SH1106 I2C): displays the GPS data and the environmental data. <br> <br>
+  - **OLED display** (SH1106 I2C): displays the GPS data and the environmental data. <br>
+    The **SH1106** is an OLED display controller that supports the I2C communication protocol. It is typically used with small, low-power OLED displays, offering a resolution of 128x128 or 128x64 pixels, depending on the specific model. The SH1106 provides high contrast and sharp images with deep blacks, as it does not require a backlight, making it energy-efficient. It operates at a voltage of 3.3V to 5V and is commonly used in projects where space and power efficiency are important, such as portable devices, wearables, and microcontroller-based systems like ESP32. <br> <br>
     ![oled](https://github.com/Mihnea323/DE2_project/blob/main/images/oled.jpeg)
 
 ## Software Description
