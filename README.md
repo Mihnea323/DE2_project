@@ -153,5 +153,14 @@ To make sure that we get data, we will have to place the circuit next to a windo
 ### 6. Photos and Videos of the Circuit
 ![circuit](https://github.com/Mihnea323/DE2_project/blob/main/images/circuit.jpg) <br> <br>
 ![circuit2](https://github.com/Mihnea323/DE2_project/blob/main/images/circuit2.jpg)
+
+#### Demo Video
+
+https://github.com/user-attachments/assets/4e580608-38c7-4c36-86ff-7863083b88b7
+
+
 ## References and Tools
+- **Main code**: https://randomnerdtutorials.com/micropython-esp32-neo-6m-gps/#esp32-neo-6m-gps-data-micropygps
+- **Digital Electronics Labs**: https://github.com/tomas-fryza/esp-micropython/tree/main
+- **Thony IDE**
 
