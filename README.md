@@ -43,7 +43,7 @@ The software consists of several classes.
     **Example of usage**: sensor = dht12.DHT12(i2c) <br>
     **Source file**: [dht12.py](https://github.com/Mihnea323/DE2_project/blob/main/src/dht12.py)
 #### 4. MicropyGPS class
-   &nbsp;&nbsp;&nbsp;The code processes GPS NMEA sentences received from a GPS module, parses them character by character, validates them, and extracts useful information like location, time, speed, and satellite data. It converts latitude and longitude between decimal degrees, degrees-minutes-seconds, and other formats and determines the cardinal direction based on the course. <br>
+   &nbsp;&nbsp;&nbsp;The code processes GPS NMEA sentences received from a GPS module, parses them character by character, validates them, and extracts useful information like location and satellite data. It converts latitude and longitude between decimal degrees, degrees-minutes-seconds, and other formats and determines the cardinal direction based on the course. <br>
    &nbsp;&nbsp;&nbsp;How the code works:
    - **Sentence parsing**: each character of a GPS sentence is passed to ***update***, then the ***update*** method segments the sentence and validates it.
    - **Validation**: checks if the checksum matches to ensure no data corruption and if valid, parses the sentence type and extracts relevant data.
